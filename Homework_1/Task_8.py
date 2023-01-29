@@ -10,7 +10,7 @@ n = int(input('Введите длину шоколадки: '))
 m = int(input('Введите ширину шоколадки: '))
 k = int(input('Введите число долек, которые хотите отломить: '))
 
-if ((k%n == 0) or (k%m == 0)) and (k < n*m):
+if ((k % n == 0) or (k % m == 0)) and (k < n * m):
     print('yes')
 else:
     print('no')

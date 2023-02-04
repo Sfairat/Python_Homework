@@ -21,4 +21,4 @@ for j in range(len(list)):
     if list[j] == X:
         count += 1
         
-print(f'Число {X} содержится в списке {count} раз.')
+print(f'Число {X} содержится в списке {count} раз(а).')
